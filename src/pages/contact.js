@@ -3,7 +3,7 @@ import React from "react";
 export default () => (
   <div>
     <h1>I'd love to talk! Email me at the address below</h1>
-    <form name="contact" method="POST" netlify>
+    <form name="contact" method="POST" data-netlify="true">
       <p>
         <label>Your Name: <input type="text" name="name" /></label>   
       </p>
